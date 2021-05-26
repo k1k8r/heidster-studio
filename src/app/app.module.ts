@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core';
+import { HomeModule } from './home';
 import { LayoutModule } from './layout';
 
 @NgModule({
@@ -14,6 +15,7 @@ import { LayoutModule } from './layout';
     BrowserModule,
     CoreModule,
     LayoutModule,
+    HomeModule,
     AppRoutingModule,
   ],
   providers: [],

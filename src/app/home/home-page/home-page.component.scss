@@ -1,0 +1,50 @@
+.info {
+  margin-top: 72px;
+  padding: 90px 0;
+
+  &-container {
+    max-width: 1582px;
+    margin: 0 auto;
+    padding: 0 68px;
+  }
+
+  &__title {
+    font-size: 40px;
+    font-weight: 300;
+    color: #141b69;
+  }
+
+  &__description {
+    font-size: 18px;
+    font-weight: 300;
+    color: #000;
+    margin-top: 50px;
+  }
+}
+
+.projectmap {
+  background: rgba(255, 253, 253, 0.5);
+  padding: 95px 0 70px;
+
+  &-container {
+    max-width: 1582px;
+    margin: 0 auto;
+    padding: 0 68px;
+  }
+
+  &__title {
+    font-size: 40px;
+    font-weight: 300;
+    color: #141b69;
+    margin-bottom: 14px;
+  }
+
+  &-list {
+    &__element {
+      font-size: 18px;
+      font-weight: 300;
+      color: #000;
+      margin-top: 10px;
+    }
+  }
+}
