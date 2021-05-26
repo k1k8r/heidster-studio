@@ -1,0 +1,41 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+
+  &-container {
+    max-width: 1582px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #141b69;
+    margin: 0 auto;
+    padding: 10px 70px;
+  }
+
+  &-nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  &__link {
+    font-size: 16px;
+    font-weight: 300;
+    color: #141b69;
+    margin: 0 50px;
+
+    &:hover {
+      cursor: pointer;
+      color: #ff8833;
+    }
+  }
+
+  &__email {
+    font-size: 16px;
+    font-weight: 300;
+    color: #141b69;
+  }
+}
